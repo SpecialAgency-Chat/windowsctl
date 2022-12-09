@@ -1,0 +1,36 @@
+{
+  "name": "windowsctl",
+  "version": "1.0.0",
+  "description": "systemctl on windows",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpecialAgency-Chat/windowsctl.git"
+  },
+  "keywords": [
+    "systemctl"
+  ],
+  "author": "waki285 <suzuneu@suzuneu.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SpecialAgency-Chat/windowsctl/issues"
+  },
+  "homepage": "https://github.com/SpecialAgency-Chat/windowsctl#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.12"
+  },
+  "dependencies": {
+    "encoding-japanese": "^2.0.0",
+    "minimist": "^1.2.7",
+    "table": "^6.8.1"
+  },
+  "bin": {
+    "systemctl": "lib/index.js"
+  }
+}
